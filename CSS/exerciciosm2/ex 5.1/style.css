@@ -1,0 +1,25 @@
+nav {
+    background-color: gold;
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 50px;
+
+    margin: 0px;
+    padding: 20px;
+}
+
+nav a {
+    font-size: 1rem;
+}
