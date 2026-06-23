@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+              body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(118, 118, 118);
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        form {
+            background-color: rgb(255, 255, 255);
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        h2 {
+            text-align: center;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+        .campo {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333232;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .botoes {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 48%;
+        }
+
+
+
+    </style>
+
+
+</head>
+  <body>
+    
+    
+
+    <form action="#" method="POST">
+        </nav>
+        <h2>Cadastro do produto</h2>
+        
+        <div class="campo">
+            <label for="nome">Nome do produto:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome do produto" required>
+        </div>
+
+        <div class="campo">
+            <label for="cargo">Descrição do produto:</label>
+            <input type="text" id="cargo" name="cargo" placeholder="Descrição do produto" required>
+        </div>
+
+        <div class="campo">
+            <label for="cargo">Categoria:</label>
+            <input type="text" id="cargo" name="cargo" placeholder="Categoria" required>
+        </div>
+
+        <div class="campo">
+            <label for="cargo">Tamanho:</label>
+            <input type="text" id="cargo" name="cargo" placeholder="Tamanho" required>
+        </div>
+
+        <div class="campo">
+            <label for="cargo">Quantidade de produtos:</label>
+            <input type="text" id="cargo" name="cargo" placeholder="Quantoidade de produtos" required>
+        </div>
+
+
+
+
+        <div class="campo">
+            <label for="salario">Preço do produto (R$):</label>
+            <input type="text" id="salario" name="salario" placeholder="0.000,00" required>
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-success">enviar</button>
+            <button type="button" class="btn btn-danger">limpar</button>
+
+        </div>
+    </form>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
